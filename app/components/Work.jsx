@@ -17,23 +17,22 @@ const Work = ({iSDarkMode}) => {
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.5, delay: 0.3}}
-      className='text-center mb-2 text-lg font-Ovo'>My portfolio</motion.h4>
+      className='text-center mb-2 text-lg font-Ovo'>Dev Diary Highlights</motion.h4>
 
 
       <motion.h2 
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.5, delay: 0.5}}
-      className='text-center text-5xl font-Ovo'>My latest work</motion.h2>
+      className='text-center text-5xl font-Ovo'>Project Playground</motion.h2>
 
         <motion.p 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{duration: 0.5, delay: 0.7}}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I turn figma dreams into functioning reality. 
-        Sometimes it even looks the same on Chrome and Firefox. 
-        (Edge? We don’t talk about Edge.) </motion.p>
+        Sometimes solo, sometimes with a team — always learning.
+These are the projects I’ve coded, built, and debugged my way through. </motion.p>
 
     <motion.div 
     initial={{ opacity: 0}}
@@ -64,7 +63,7 @@ const Work = ({iSDarkMode}) => {
                     aspect-square flex items-center justify-center shadow-
                     [2px_2px_0_#000] group-hover:bg-lime-300 transition'>
                         <Image src={assets.send_icon} alt ='send icon' 
-                        className='w-5' />
+                        className='size-3' />
                     </div>
                 </div>
                     

@@ -78,37 +78,37 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Hire. Work. Done.',
+        description: 'Web App | On-Demand Job Finder',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'No Proxy, Just Face',
+        description: 'AI Attendance | Face Recognition System',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Talk with Hands',
+        description: 'AI + Vision | Gesture to Text Translator',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Electri-Caught!',
+        description: 'IoT + Sensors | Detecting Power Theft Like a Pro',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'BIT Hackathon Chronicles', description: 'What happens when you lock students in with code, snacks, and no time? A hackathon, of course. Joined a 24-hour coding sprint at Bangalore Institute of Technology — built, broke, fixed, and pitched a working project with my team!....', link: 'Hackthons' },
+    { icon: assets.mobile_icon, title: 'From Hands to Hope – Our Atria Hackathon Journey', description: 'Our hands did the talking — literally.Built a hand gesture recognition tool in just 8 hours, made it to the final round at Atria, and walked away with the a participation certificate, because winning is overrated... kinda :).', link: '' },
+    { icon: assets.ui_icon, title: 'Cloud Stuff? Certified.', description: 'Yes, it’s real. Yes, it’s signed by Satya Nadella (okay, maybe digitally).I earned the Microsoft Azure Data Fundamentals certification, which means I now officially understand cloud data, databases, and how not to accidentally break everything on Azure.', link: '' },
+    { icon: assets.graphics_icon, title: 'Python in, Predictions Out.', description: 'Completed a Machine Learning internship where Python was my second language and debugging was my full-time job.Models trained. Mind blown. Certificate earned.', link: '' },
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Artificial intelligence and Data science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 

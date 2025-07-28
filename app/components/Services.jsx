@@ -2,6 +2,7 @@ import { assets, serviceData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
+import Link from 'next/link'
 
 
 const Services = () => {
@@ -16,21 +17,21 @@ const Services = () => {
       initial={{y: -20,opacity: 0 }}
       whileInView={{y: 0, opacity: 1}}
       transition={{ delay: 0.3, duration: 0.5 }}
-      className='text-center mb-2 text-lg font-Ovo'>what i offer</motion.h4>
+      className='text-center mb-2 text-lg font-Ovo'>A peek at things I've built, broken, fixed, and sometimes pretended to understand</motion.h4>
       
       
       <motion.h2
       initial={{y: -20,opacity: 0 }}
       whileInView={{y: 0, opacity: 1}}
       transition={{ delay: 0.5, duration: 0.5 }}
-      className='text-center text-5xl font-Ovo'>My Services</motion.h2>
+      className='text-center text-5xl font-Ovo'>The Learning Saga of Sanyukta✨</motion.h2>
 
         <motion.p
         initial={{ opacity: 0 }}
         whileInView={{opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-            partcipated in hackathon.......</motion.p>
+          Powered by Curiosity & Chaos.</motion.p>
 
             <motion.div
             initial={{ opacity: 0 }}
@@ -57,11 +58,10 @@ const Services = () => {
                             {description}
                         </p>
                         
-                        <a 
-                        
+                        <Link
                         href={link} className='flex items-center gap-2 text-sm mt-5'>
                             Read more <Image  alt='' src={assets.right_arrow} className='w-4'/>
-                        </a>
+                        </Link>
                     </motion.div>
                 ))}
             </motion.div>

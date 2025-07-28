@@ -15,7 +15,7 @@ const About = ({isDarkMode}) => {
       initial={{opacity: 0, y: -20}}
       whileInView={{opacity: 1, y: 0}}
       transition={{duration: 0.5, dealay: 0.3}}
-      className='text-center  text-lg font-Ovo'>More Than Just a Name</motion.h4>
+      className='text-center  text-lg font-Ovo'>The Story Behind the Syntax</motion.h4>
       
       <motion.h2 
       initial={{opacity: 0, y: -20}}
@@ -34,7 +34,7 @@ const About = ({isDarkMode}) => {
           whileInView={{opacity: 1, scale: 1}}
           transition={{duration: 0.6}}
           className='w-64 sm:w-80 rounded-3xl max-w-none'>
-            <Image src={assets.user_image} alt='user' className='w-full rounded-3xl ' /> 
+            <Image src={assets.user_image} alt='user' className='w-full rounded-3xl flex w-full flex-col lg:flex-row items-center gap-20 my-10 -mt-10 ' /> 
           </motion.div>
           
           <motion.div
