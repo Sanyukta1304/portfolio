@@ -2,6 +2,7 @@ import { assets, workData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
+import Link from 'next/link'
 
 
 const Work = ({iSDarkMode}) => {
@@ -48,11 +49,16 @@ These are the projects I’ve coded, built, and debugged my way through. </motio
             className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg
             relative cursor-pointer group'
             style={{backgroundImage: `url(${project.bgImage})`}}>
-                
+                <Link href={project.link} passHref> 
+                {/* <a  target='_blank' ></a> */}
                 <div className='bg-white w-10/12 rounded-md absolute bottom-5 
                 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center 
                 justify-between duration-500 group-hover:bottom-7'>
+                    {/* heellooooo ..????????haaaaaaaaaaaaaaaaaaaaaaaaaaaa?
                     
+                    next yenuuu
+                    show more mele ethuuuuuuuuuuuuuuuuuuu
+                    */}
                     <div>
                     
                         <h2 className='font-semibold'>{project.title}</h2>
@@ -66,7 +72,8 @@ These are the projects I’ve coded, built, and debugged my way through. </motio
                         className='size-3' />
                     </div>
                 </div>
-                    
+                
+                </Link>
             </motion.div>
         ))}
     </motion.div>
@@ -74,9 +81,10 @@ These are the projects I’ve coded, built, and debugged my way through. </motio
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.5, delay: 1.1 }}
-    href="" className='w-max flex items-center justify-center gap-2
+    href="https://github.com/Sanyukta1304/" className='w-max flex items-center justify-center gap-2
+    -mt-5
     text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto 
-    my-20 hover:bg-[#f2e0ff] duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>
+    my-20 hover:bg-[#f2e0ff] duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover' target='_blank'>
         show more <Image src={iSDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='Right arrow'
         className='w-4'/>
     </motion.a>

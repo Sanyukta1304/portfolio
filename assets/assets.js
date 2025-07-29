@@ -35,8 +35,28 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import bit_1 from "./bit-1.png"
+import bit_2 from "./bit-2.png"
+import bit_certificate from "./bit-certificate.png"
+import atria_1 from "./atria-1.png"
+import atria_2 from "./atria-2.png"
+import atria_certificate from "./atria-certificate.png"
+import azure_certificate_1 from "./azure-certificate-1.png"
+import azure_certificate_2 from "./azure-certificate-2.png"
+import azure_certificate_3 from "./azure-certificate-3.png"
+import intern from "./intern.png"
 
 export const assets = {
+    bit_1,
+    bit_2,
+    bit_certificate,
+    atria_1,
+    atria_2,
+    atria_certificate,
+    azure_certificate_1,
+    azure_certificate_2,
+    azure_certificate_3,
+    intern,
     user_image,
     code_icon,
     code_icon_dark,
@@ -81,29 +101,33 @@ export const workData = [
         title: 'Hire. Work. Done.',
         description: 'Web App | On-Demand Job Finder',
         bgImage: '/work-1.png',
+        link:"https://github.com/Sanyukta1304/portfolio"
     },
     {
         title: 'No Proxy, Just Face',
         description: 'AI Attendance | Face Recognition System',
         bgImage: '/work-2.png',
+        link:"https://github.com/Sanyukta1304/portfolio"
     },
     {
         title: 'Talk with Hands',
         description: 'AI + Vision | Gesture to Text Translator',
         bgImage: '/work-3.png',
+        link:"https://github.com/Sanyukta1304/portfolio"
     },
     {
         title: 'Electri-Caught!',
         description: 'IoT + Sensors | Detecting Power Theft Like a Pro',
         bgImage: '/work-4.png',
+        link:"https://github.com/Sanyukta1304/portfolio"
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'BIT Hackathon Chronicles', description: 'What happens when you lock students in with code, snacks, and no time? A hackathon, of course. Joined a 24-hour coding sprint at Bangalore Institute of Technology — built, broke, fixed, and pitched a working project with my team!....', link: 'Hackthons' },
-    { icon: assets.mobile_icon, title: 'From Hands to Hope – Our Atria Hackathon Journey', description: 'Our hands did the talking — literally.Built a hand gesture recognition tool in just 8 hours, made it to the final round at Atria, and walked away with the a participation certificate, because winning is overrated... kinda :).', link: '' },
-    { icon: assets.ui_icon, title: 'Cloud Stuff? Certified.', description: 'Yes, it’s real. Yes, it’s signed by Satya Nadella (okay, maybe digitally).I earned the Microsoft Azure Data Fundamentals certification, which means I now officially understand cloud data, databases, and how not to accidentally break everything on Azure.', link: '' },
-    { icon: assets.graphics_icon, title: 'Python in, Predictions Out.', description: 'Completed a Machine Learning internship where Python was my second language and debugging was my full-time job.Models trained. Mind blown. Certificate earned.', link: '' },
+    { icon: assets.web_icon, title: 'BIT Hackathon Chronicles', description: 'What happens when you lock students in with code, snacks, and no time? A hackathon, of course. Joined a 24-hour coding sprint at Bangalore Institute of Technology — built, broke, fixed, and pitched a working project with my team!....', link: 'Hackthons/' },
+    { icon: assets.mobile_icon, title: 'From Hands to Hope – Our Atria Hackathon Journey', description: 'Our hands did the talking — literally.Built a hand gesture recognition tool in just 8 hours, made it to the final round at Atria, and walked away with the a participation certificate, because winning is overrated... kinda :).', link: 'Atria/' },
+    { icon: assets.ui_icon, title: 'Cloud Stuff? Certified.', description: 'Yes, it’s real. Yes, it’s signed by Satya Nadella (okay, maybe digitally).I earned the Microsoft Azure Data Fundamentals certification, which means I now officially understand cloud data, databases, and how not to accidentally break everything on Azure.', link: 'Azure/' },
+    { icon: assets.graphics_icon, title: 'Python in, Predictions Out.', description: 'Completed a Machine Learning internship where Python was my second language and debugging was my full-time job.Models trained. Mind blown. Certificate earned.', link: 'Internship/' },
 ]
 
 export const infoList = [

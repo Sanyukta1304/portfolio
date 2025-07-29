@@ -26,15 +26,15 @@ const About = ({isDarkMode}) => {
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.8}}
-        className='flex w-full flex-col lg:flex-row items-center 
-        gap-20 my-10'>
+        className='flex w-full flex-col lg:flex-row items 
+        gap-20 my-10 items-center'>
           
           <motion.div 
           initial={{opacity: 0, scale: 0.9}}
           whileInView={{opacity: 1, scale: 1}}
           transition={{duration: 0.6}}
-          className='w-64 sm:w-80 rounded-3xl max-w-none'>
-            <Image src={assets.user_image} alt='user' className='w-full rounded-3xl flex w-full flex-col lg:flex-row items-center gap-20 my-10 -mt-10 ' /> 
+          className='w-64 sm:w-80 rounded-3xl max-w-none md:-mt-32'>
+            <Image src={assets.user_image} alt='user' className='w-full rounded-3xl flex w-full flex-col lg:flex-row items-center gap-20' /> 
           </motion.div>
           
           <motion.div
@@ -42,7 +42,7 @@ const About = ({isDarkMode}) => {
           whileInView={{opacity: 1}}
           transition={{duration: 0.6, dealay: 0.8}}
           className='flex-1'>
-            <p className=' max-w-2xl font-Ovo'
+            <p className=' max-w-2xl font-Ovo -mt-10 md:mt-0'
             >Hey there!
             I'm a curious learner diving into the world of development—still 
             figuring things out, but loving every "Aha!" moment along the way. 
